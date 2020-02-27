@@ -30,7 +30,7 @@ if (isset($_POST['register'])) {
          $query = "INSERT INTO patient (username, tag, contact, tarikh, wad) 
               VALUES ('$username', '$tag', '$contact', '$tarikh', '$wad')";
          $results = mysqli_query($db, $query);
-         header('location: register.php');
+         header('location: https://tohshearchee.github.io/toh/register.html');
          exit();
   }
 }
