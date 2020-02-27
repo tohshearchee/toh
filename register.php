@@ -4,7 +4,7 @@
 <html>
 <head>
   <title>Tag Registration System</title>
- <link rel="stylesheet" href="style.css">
+ <link rel="stylesheet" href="https://tohshearchee.github.io/toh/style.css">
 </head>
 <body>
   <div class="header">
