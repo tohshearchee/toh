@@ -1,7 +1,7 @@
 <?php
 
 // connect to the database
-$db = mysqli_connect('localhost', 'root', 'schee7405', 'registration', '3307');
+$db = mysqli_connect('sql12.freemysqlhosting.net', 'sql12324494', 'Jh8mHQuHhk', 'sql12324494');
 $username = "";
 $tag = "";
 $contact ="";
