@@ -20,7 +20,7 @@
 	  <?php endif ?>
 	 </div>
 
-	<div <?php if (isset($tag_error)): ?> class="form_error" <?php endif ?> >
+	<div <?php if (isset($tag_error)): ?> <?php endif ? >
 	  <input type="number" name="tag" placeholder="Tag ID" value="<?php echo $tag; ?>" required>
 	  <?php if (isset($tag_error)): ?>
 	  	<span><?php echo $tag_error; ?></span>
