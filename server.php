@@ -1,7 +1,7 @@
 <?php
 
 // connect to the database
-$db = mysqli_connect('localhost', 'root', 'schee7405', 'registration', '3307');
+$db = mysqli_connect('sql12.freemysqlhosting.net', 'sql12324494', 'Jh8mHQuHhk', 'sql12324494'');
 $username = "";
 $tag = "";
 $contact ="";
@@ -30,7 +30,7 @@ if (isset($_POST['register'])) {
          $query = "INSERT INTO patient (username, tag, contact, tarikh, wad) 
               VALUES ('$username', '$tag', '$contact', '$tarikh', '$wad')";
          $results = mysqli_query($db, $query);
-         header('location: register.php');
+         header('location: https://tohshearchee.github.io/toh/register.html');
          exit();
   }
 }
